@@ -60,7 +60,7 @@ export const projects: Project[] = [
     id: '3',
     slug: 'annie-atkins',
     title: 'Annie-atkins',
-    client: 'annie-atkins',
+    client: 'Domestika',
     categories: ['Tutorial', 'E-learning'],
     thumbnail: '/loveletters.jpg',
     thumbnail2: '/annie-atkins2.jpg',
