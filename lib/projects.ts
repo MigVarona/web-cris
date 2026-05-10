@@ -9,7 +9,6 @@ export interface Project {
   thumbnail3: string
   videoUrl?: string
   year: string
-  description?: string
   credits?: {
     role: string
     value: string
@@ -28,7 +27,6 @@ export const projects: Project[] = [
     thumbnail3: '/Bitvavo frame 2.png',
     videoUrl: 'https://www.youtube.com/embed/crLQsjW0sUo',
     year: '',
-    description: 'La campaña anual de Spotify celebrando los momentos musicales más importantes del año.',
     credits: [
       { role: 'Cliente', value: 'Bitvavo' },
       { role: 'Agencia', value: 'Melic' },
@@ -48,7 +46,6 @@ export const projects: Project[] = [
     thumbnail3: '/Magalie 3.png',
     videoUrl: 'https://www.youtube.com/embed/PEnYvNwR8s0',
     year: '',
-    description: 'Campaña global para Nike celebrando el espíritu del deporte.',
     credits: [
       { role: 'Cliente', value: 'Nike' },
       { role: 'Agencia', value: 'Wieden+Kennedy' },
@@ -67,7 +64,6 @@ export const projects: Project[] = [
     thumbnail3: '/annie3.jpg',
     videoUrl: 'https://www.youtube.com/embed/f36MEz8wbsw',
     year: '',
-    description: 'Serie documental capturada enteramente con iPhone.',
     credits: [
       { role: 'Cliente', value: 'Apple' },
       { role: 'Productora', value: 'TBWA\\Media Arts Lab' },
@@ -85,7 +81,6 @@ export const projects: Project[] = [
     thumbnail3: '/SM_18_final-original.avif',
     videoUrl: 'https://www.youtube.com/embed/JtgkqWJqk3E',
     year: '',
-    description: 'Campaña navideña de Coca-Cola.',
     credits: [
       { role: 'Cliente', value: 'Coca-Cola' },
       { role: 'Agencia', value: 'Wunderman Thompson' },
@@ -103,7 +98,6 @@ export const projects: Project[] = [
     thumbnail3: '/anatomia3.png',
     videoUrl: 'https://www.youtube.com/embed/9RJYbC2Gw74',
     year: '',
-    description: 'Film para el lanzamiento del nuevo modelo eléctrico de Mercedes.',
     credits: [
       { role: 'Cliente', value: 'Prime Video' },
       { role: 'Productora', value: 'Mandarina' },
@@ -122,7 +116,6 @@ export const projects: Project[] = [
     thumbnail3: '/cha 3.png',
     videoUrl: 'https://www.youtube.com/embed/pGtq7VyoSko',
     year: '',
-    description: 'Campaña global de Adidas celebrando los atletas.',
     credits: [
       { role: 'Cliente', value: 'Adidas' },
       { role: 'Agencia', value: '72andSunny' },
