@@ -47,10 +47,9 @@ export const projects: Project[] = [
     videoUrl: 'https://www.youtube.com/embed/PEnYvNwR8s0',
     year: '',
     credits: [
-      { role: 'Cliente', value: 'Nike' },
-      { role: 'Agencia', value: 'Wieden+Kennedy' },
-      { role: 'Director', value: 'Oscar Hudson' },
-      { role: 'Rol', value: 'Editora' }
+      { role: 'Cliente', value: 'Magalie' },
+      { role: 'Agencia', value: 'First Group' },
+      { role: 'Rol', value: 'Video editor' }
     ]
   },
   {
@@ -65,9 +64,8 @@ export const projects: Project[] = [
     videoUrl: 'https://www.youtube.com/embed/f36MEz8wbsw',
     year: '',
     credits: [
-      { role: 'Cliente', value: 'Apple' },
-      { role: 'Productora', value: 'TBWA\\Media Arts Lab' },
-      { role: 'Rol', value: 'Editora Principal' }
+      { role: 'Productora', value: 'Domestika' },
+      { role: 'Rol', value: 'Video editor' }
     ]
   },
   {
@@ -82,9 +80,8 @@ export const projects: Project[] = [
     videoUrl: 'https://www.youtube.com/embed/JtgkqWJqk3E',
     year: '',
     credits: [
-      { role: 'Cliente', value: 'Coca-Cola' },
-      { role: 'Agencia', value: 'Wunderman Thompson' },
-      { role: 'Rol', value: 'Editora' }
+      { role: 'Agencia', value: 'Domestika' },
+      { role: 'Rol', value: 'Video editor' }
     ]
   },
   {
@@ -101,8 +98,8 @@ export const projects: Project[] = [
     credits: [
       { role: 'Cliente', value: 'Prime Video' },
       { role: 'Productora', value: 'Mandarina' },
-      { role: 'Director', value: 'Tom Hooper' },
-      { role: 'Rol', value: 'Editora Principal' }
+      { role: 'Director', value: 'Guillermo Sanchez Castañón' },
+      { role: 'Rol', value: 'Video editor' }
     ]
   },
   {
@@ -117,9 +114,7 @@ export const projects: Project[] = [
     videoUrl: 'https://www.youtube.com/embed/pGtq7VyoSko',
     year: '',
     credits: [
-      { role: 'Cliente', value: 'Adidas' },
-      { role: 'Agencia', value: '72andSunny' },
-      { role: 'Rol', value: 'Editora' },
+      { role: 'Rol', value: 'Video editor' },
       { role: 'Director', value: 'Pierre Minetti' }
     ]
   },
