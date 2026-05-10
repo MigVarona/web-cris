@@ -5,6 +5,8 @@ export interface Project {
   client: string
   categories: string[]
   thumbnail: string
+  thumbnail2: string
+  thumbnail3: string
   videoUrl?: string
   year: string
   description?: string
@@ -18,19 +20,21 @@ export const projects: Project[] = [
   {
     id: '1',
     slug: 'Bitvavo',
-    title: '“Dear Traders”, BITVAVO  - 2026',
+    title: '“All in one place”, BITVAVO',
     client: 'BITVAVO',
-    categories: ['Campaign', 'Film'],
+    categories: ['Commercial'],
     thumbnail: '/Bitvavo frame.png',
+    thumbnail2: '/bitvavo2.jpeg',
+    thumbnail3: '/Bitvavo frame 2.png',
     videoUrl: 'https://www.youtube.com/embed/crLQsjW0sUo',
-    year: '2025',
+    year: '',
     description: 'La campaña anual de Spotify celebrando los momentos musicales más importantes del año.',
     credits: [
       { role: 'Cliente', value: 'Bitvavo' },
-      { role: 'Agencia', value: 'Who Wot Why' },
-      { role: 'Productora', value: 'Iconoclast' },
-      { role: 'Director', value: 'Rubén Martín' },
-      { role: 'Rol', value: 'Editora Principal' }
+      { role: 'Agencia', value: 'Melic' },
+      { role: 'Productora', value: 'Sistema del Solar' },
+      { role: 'Director', value: 'Jara Moravec' },
+      { role: 'Rol', value: 'Postproduction Coordinator' }
     ]
   },
   {
@@ -38,10 +42,12 @@ export const projects: Project[] = [
     slug: 'Magalie',
     title: 'Magalie',
     client: 'Magalie',
-    categories: ['Campaign', 'Film', 'Social'],
+    categories: ['Commercial'],
     thumbnail: '/Magalie.png',
+    thumbnail2: '/Magalie2.png',
+    thumbnail3: '/Magalie 3.png',
     videoUrl: 'https://www.youtube.com/embed/PEnYvNwR8s0',
-    year: '2024',
+    year: '',
     description: 'Campaña global para Nike celebrando el espíritu del deporte.',
     credits: [
       { role: 'Cliente', value: 'Nike' },
@@ -53,12 +59,14 @@ export const projects: Project[] = [
   {
     id: '3',
     slug: 'annie-atkins',
-    title: 'annie-atkins',
+    title: 'Annie-atkins',
     client: 'annie-atkins',
-    categories: ['Film', 'Documentary'],
+    categories: ['Tutorial', 'E-learning'],
     thumbnail: '/loveletters.jpg',
+    thumbnail2: '/annie-atkins2.jpg',
+    thumbnail3: '/annie3.jpg',
     videoUrl: 'https://www.youtube.com/embed/f36MEz8wbsw',
-    year: '2023',
+    year: '',
     description: 'Serie documental capturada enteramente con iPhone.',
     credits: [
       { role: 'Cliente', value: 'Apple' },
@@ -68,13 +76,15 @@ export const projects: Project[] = [
   },
   {
     id: '4',
-    slug: 'coca-cola-real-magic',
-    title: 'Real Magic',
-    client: 'Coca-Cola',
-    categories: ['Campaign', 'Film'],
-    thumbnail: 'https://images.unsplash.com/photo-1629203851122-3726ecdf080e?w=800&h=600&fit=crop',
-    videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
-    year: '2023',
+    slug: 'mother-of-dragons',
+    title: 'Mother of Dragons',
+    client: 'Domestika',
+    categories: ['Trailer', 'E-learning'],
+    thumbnail: '/3002-original.avif',
+    thumbnail2: '/1080x1080_portrait-D-original.avif',
+    thumbnail3: '/SM_18_final-original.avif',
+    videoUrl: 'https://www.youtube.com/embed/JtgkqWJqk3E',
+    year: '',
     description: 'Campaña navideña de Coca-Cola.',
     credits: [
       { role: 'Cliente', value: 'Coca-Cola' },
@@ -84,35 +94,40 @@ export const projects: Project[] = [
   },
   {
     id: '5',
-    slug: 'mercedes-future',
-    title: 'The Future',
-    client: 'Mercedes-Benz',
-    categories: ['Film', 'Commercial'],
-    thumbnail: 'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&h=600&fit=crop',
-    videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
-    year: '2023',
+    slug: 'anatomia-de-un-crimen',
+    title: 'Anatomia de un Crimen',
+    client: 'Mandarina',
+    categories: ['Documentary', 'Film'],
+    thumbnail: '/anatomia.png',
+    thumbnail2: '/anatomia2.png',
+    thumbnail3: '/anatomia3.png',
+    videoUrl: 'https://www.youtube.com/embed/9RJYbC2Gw74',
+    year: '',
     description: 'Film para el lanzamiento del nuevo modelo eléctrico de Mercedes.',
     credits: [
-      { role: 'Cliente', value: 'Mercedes-Benz' },
-      { role: 'Productora', value: 'Smuggler' },
+      { role: 'Cliente', value: 'Mandarina' },
+      { role: 'Productora', value: 'Mandarina' },
       { role: 'Director', value: 'Tom Hooper' },
       { role: 'Rol', value: 'Editora Principal' }
     ]
   },
   {
     id: '6',
-    slug: 'adidas-impossible-nothing',
-    title: 'Impossible Is Nothing',
-    client: 'Adidas',
-    categories: ['Campaign', 'Film', 'Social'],
-    thumbnail: 'https://images.unsplash.com/photo-1556906781-9a412961c28c?w=800&h=600&fit=crop',
-    videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
-    year: '2022',
+    slug: 'cha-cha-cha',
+    title: 'Cha Cha Cha',
+    client: 'Made in Barcelona',
+    categories: ['Videoclip', 'Music',],
+    thumbnail: '/cha cha cha.png',
+    thumbnail2: '/cha 2.png',
+    thumbnail3: '/cha 3.png',
+    videoUrl: 'https://www.youtube.com/embed/pGtq7VyoSko',
+    year: '',
     description: 'Campaña global de Adidas celebrando los atletas.',
     credits: [
       { role: 'Cliente', value: 'Adidas' },
       { role: 'Agencia', value: '72andSunny' },
-      { role: 'Rol', value: 'Editora' }
+      { role: 'Rol', value: 'Editora' },
+      { role: 'Director', value: 'Pierre Minetti' }
     ]
   },
 

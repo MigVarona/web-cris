@@ -55,7 +55,8 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
             {project.title} <span className="text-muted-foreground">/ {project.client}</span>
           </h1>
           <p className="text-sm text-muted-foreground uppercase tracking-wider">
-            {project.categories.join(', ')} · {project.year}
+            {project.categories.join(', ')} · 
+          
           </p>
         </section>
 
@@ -121,7 +122,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="relative aspect-video bg-card overflow-hidden">
               <Image
-                src={project.thumbnail}
+                src={project.thumbnail2}
                 alt={`${project.title} - Image 1`}
                 fill
                 className="object-cover"
@@ -129,10 +130,10 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
             </div>
             <div className="relative aspect-video bg-card overflow-hidden">
               <Image
-                src={project.thumbnail}
+                src={project.thumbnail3}
                 alt={`${project.title} - Image 2`}
                 fill
-                className="object-cover grayscale"
+                className="object-cover"
               />
             </div>
           </div>
