@@ -52,24 +52,9 @@ export const projects: Project[] = [
       { role: 'Rol', value: 'Video editor' }
     ]
   },
-  {
+
+    {
     id: '3',
-    slug: 'annie-atkins',
-    title: 'Annie-atkins',
-    client: 'Domestika',
-    categories: ['Tutorial', 'E-learning'],
-    thumbnail: '/loveletters.jpg',
-    thumbnail2: '/annie-atkins2.jpg',
-    thumbnail3: '/annie3.jpg',
-    videoUrl: 'https://www.youtube.com/embed/f36MEz8wbsw',
-    year: '',
-    credits: [
-      { role: 'Productora', value: 'Domestika' },
-      { role: 'Rol', value: 'Video editor' }
-    ]
-  },
-  {
-    id: '4',
     slug: 'mother-of-dragons',
     title: 'Mother of Dragons',
     client: 'Domestika',
@@ -84,6 +69,23 @@ export const projects: Project[] = [
       { role: 'Rol', value: 'Video editor' }
     ]
   },
+  {
+    id: '4',
+    slug: 'annie-atkins',
+    title: 'Annie-atkins',
+    client: 'Domestika',
+    categories: ['Tutorial', 'E-learning'],
+    thumbnail: '/loveletters.jpg',
+    thumbnail2: '/annie-atkins2.jpg',
+    thumbnail3: '/annie3.jpg',
+    videoUrl: 'https://www.youtube.com/embed/f36MEz8wbsw',
+    year: '',
+    credits: [
+      { role: 'Productora', value: 'Domestika' },
+      { role: 'Rol', value: 'Video editor' }
+    ]
+  },
+
   {
     id: '5',
     slug: 'anatomia-de-un-crimen',
