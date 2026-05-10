@@ -96,7 +96,7 @@ export const projects: Project[] = [
     id: '5',
     slug: 'anatomia-de-un-crimen',
     title: 'Anatomia de un Crimen',
-    client: 'Mandarina',
+    client: 'Prime Video',
     categories: ['Documentary', 'Film'],
     thumbnail: '/anatomia.png',
     thumbnail2: '/anatomia2.png',
@@ -105,7 +105,7 @@ export const projects: Project[] = [
     year: '',
     description: 'Film para el lanzamiento del nuevo modelo eléctrico de Mercedes.',
     credits: [
-      { role: 'Cliente', value: 'Mandarina' },
+      { role: 'Cliente', value: 'Prime Video' },
       { role: 'Productora', value: 'Mandarina' },
       { role: 'Director', value: 'Tom Hooper' },
       { role: 'Rol', value: 'Editora Principal' }
