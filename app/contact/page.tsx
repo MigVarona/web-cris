@@ -3,7 +3,7 @@ import { Footer } from '@/components/footer'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Contact — Cristina Gomez / Video Editor',
+  title: 'Contact — Cristina Gomez / Video Editor & Post Production Coordinator',
   description: 'Contacta con Cristina Gomez - Editora de video profesional',
 }
 
@@ -18,9 +18,7 @@ export default function ContactPage() {
             Contact
           </h1>
           
-          <p className="text-lg text-muted-foreground leading-relaxed mb-12">
-            {"¿Tienes un proyecto en mente? Me encantaría escuchar sobre él. Estoy disponible para trabajos freelance y colaboraciones."}
-          </p>
+
           
           <div className="space-y-8">
             <div>
@@ -31,7 +29,7 @@ export default function ContactPage() {
                 href="mailto:hello@cristinagomez.com" 
                 className="text-2xl md:text-3xl text-foreground hover:text-muted-foreground transition-colors"
               >
-                hello@cristinagomez.com
+                cristinaagomezz@gmail.com
               </a>
             </div>
             
@@ -49,16 +47,9 @@ export default function ContactPage() {
                 Social
               </h2>
               <div className="flex flex-col gap-2">
+              
                 <a 
-                  href="https://www.instagram.com" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-2xl md:text-3xl text-foreground hover:text-muted-foreground transition-colors"
-                >
-                  Instagram ↗
-                </a>
-                <a 
-                  href="https://www.linkedin.com" 
+                  href="https://www.linkedin.com/in/cristinagomezvara/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-2xl md:text-3xl text-foreground hover:text-muted-foreground transition-colors"
@@ -66,7 +57,7 @@ export default function ContactPage() {
                   LinkedIn ↗
                 </a>
                 <a 
-                  href="https://vimeo.com" 
+                  href="https://vimeo.com/espica" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-2xl md:text-3xl text-foreground hover:text-muted-foreground transition-colors"

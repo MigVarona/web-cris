@@ -14,7 +14,7 @@ export function Header() {
             Cristina Gomez
           </span>
           <span className="block text-xs text-muted-foreground tracking-wider">
-            / Video Editor /
+             Video Editor / Post Production Coordinator
           </span>
         </Link>
 
