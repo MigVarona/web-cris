@@ -1,8 +1,8 @@
 export function Footer() {
   const clients = [
     'Disney', 'Save The Children', 'Heineken', 'Mediaset', 'Bitvavo',
-    'Ayuda en Accion', 'RTVE', 'Domestika', 
-    
+    'Ayuda en Accion', 'RTVE', 'Domestika',
+
   ]
 
   return (
@@ -12,7 +12,7 @@ export function Footer() {
           Clients & Partners
         </h3>
         <p className="text-sm text-muted-foreground leading-relaxed max-w-4xl">
-          {clients.join(' · ')} 
+          {clients.join(' · ')}
         </p>
       </div>
 
@@ -28,7 +28,7 @@ export function Footer() {
             className="text-sm text-muted-foreground hover:text-foreground transition-colors"
           >
             cristinaagomezz@gmail.com          </a>
-       
+
           <a
             href="https://www.linkedin.com/in/cristinagomezvara/"
             target="_blank"
@@ -50,7 +50,15 @@ export function Footer() {
 
       <div className="mt-12 pt-6 border-t border-border">
         <p className="text-xs text-muted-foreground">
-          © {new Date().getFullYear()} Cristina Gómez. All rights reserved.
+          © {new Date().getFullYear()} Cristina Gómez. All rights reserved. developed by{" "}
+          <a
+            href="https://varona-portfolio-rho.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:opacity-80 transition-opacity"
+          >
+            Miguel Varona
+          </a>
         </p>
       </div>
     </footer>
