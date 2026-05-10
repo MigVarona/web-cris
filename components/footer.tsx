@@ -12,13 +12,13 @@ export function Footer() {
           Clients & Partners
         </h3>
         <p className="text-sm text-muted-foreground leading-relaxed max-w-4xl">
-          {clients.join(' · ')} and many others...
+          {clients.join(' · ')} 
         </p>
       </div>
 
       <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
         <div className="space-y-2">
-          <p className="text-sm text-foreground">Cristina Gomez</p>
+          <p className="text-sm text-foreground">Cristina Gómez</p>
           <p className="text-sm text-muted-foreground">Video Editor · Post Production Coordinator · Madrid, Spain</p>
         </div>
 
@@ -50,7 +50,7 @@ export function Footer() {
 
       <div className="mt-12 pt-6 border-t border-border">
         <p className="text-xs text-muted-foreground">
-          © {new Date().getFullYear()} Cristina Gomez. All rights reserved.
+          © {new Date().getFullYear()} Cristina Gómez. All rights reserved.
         </p>
       </div>
     </footer>

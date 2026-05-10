@@ -11,7 +11,7 @@ export function Header() {
       <div className="px-6 md:px-12 py-6 flex items-center justify-between">
         <Link href="/" className="group">
           <span className="text-sm tracking-widest text-foreground uppercase">
-            Cristina Gomez
+            Cristina Gómez
           </span>
           <span className="block text-xs text-muted-foreground tracking-wider">
              Video Editor / Post Production Coordinator
