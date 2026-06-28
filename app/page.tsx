@@ -7,7 +7,7 @@ export default function HomePage() {
     <main className="min-h-screen bg-background text-foreground">
       <Header />
       
-      <div className="pt-32">
+      <div className="pt-28 md:pt-32">
         <ProjectGrid />
       </div>
       

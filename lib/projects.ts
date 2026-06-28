@@ -8,6 +8,7 @@ export interface Project {
   thumbnail2: string
   thumbnail3: string
   videoUrl?: string
+  description?: string
   year: string
   credits?: {
     role: string

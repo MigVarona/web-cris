@@ -5,8 +5,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'About — Cristina Gomez / Post Production Coordinator',
-  description:
-    '',
+  description: 'Sobre Cristina Gomez, editora de video y coordinadora de postproduccion en Madrid.',
 }
 
 export default function AboutPage() {
@@ -14,33 +13,21 @@ export default function AboutPage() {
     <main className="min-h-screen bg-background text-foreground">
       <Header />
 
-      <article className="pt-32 px-6 md:px-12">
-        <section className="max-w-5xl mb-16 grid md:grid-cols-2 gap-12 items-start">
+      <article className="px-6 pt-28 md:px-12 md:pt-32">
+        <section className="mb-20 grid max-w-6xl gap-10 md:grid-cols-[minmax(0,1fr)_minmax(300px,420px)] md:gap-16">
           <div>
-            <h1 className="text-4xl md:text-6xl font-medium text-foreground mb-8">
+            <p className="mb-5 text-xs font-medium uppercase tracking-[0.22em] text-muted-foreground">Profile</p>
+            <h1 className="mb-8 text-4xl font-medium leading-none md:text-6xl">
               About
             </h1>
 
-            <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
-              <div>
-                <h2 className="text-sm uppercase tracking-widest text-foreground mb-4">
-                  Software
-                </h2>
-
-                <ul className="space-y-2">
-                  <li>Adobe Premiere</li>
-                  <li>DaVinci Resolve</li>
-                  <li>Avid Media Composer</li>
-                  <li>After Effects</li>
-                </ul>
-              </div>
-
-              <div>
-                <h2 className="text-sm uppercase tracking-widest text-foreground mb-4">
+            <div className="space-y-10 text-muted-foreground">
+              <div className="max-w-3xl">
+                <h2 className="mb-4 text-xs font-medium uppercase tracking-[0.22em] text-foreground">
                   What I Do
                 </h2>
 
-                <p>
+                <p className="text-lg leading-relaxed">
                   I have had the privilege of working on diverse projects,
                   including events, advertising campaigns, start-ups, and
                   freelance assignments for clients such as RTVE, Save The
@@ -52,11 +39,24 @@ export default function AboutPage() {
                   together.
                 </p>
               </div>
+
+              <div>
+                <h2 className="mb-4 text-xs font-medium uppercase tracking-[0.22em] text-foreground">
+                  Software
+                </h2>
+
+                <ul className="grid max-w-2xl grid-cols-1 border-t border-border text-sm text-foreground sm:grid-cols-2">
+                  {['Adobe Premiere', 'DaVinci Resolve', 'Avid Media Composer', 'After Effects'].map((item) => (
+                    <li key={item} className="border-b border-border py-3 text-muted-foreground">
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
           </div>
 
-          {/* FOTO */}
-          <div className="relative w-full aspect-[4/5] overflow-hidden rounded-2xl">
+          <div className="relative aspect-[4/5] w-full overflow-hidden border border-border bg-card">
             <Image
               src="/Cristina gomez.jpeg"
               alt="Cristina Gomez"
@@ -67,9 +67,6 @@ export default function AboutPage() {
           </div>
         </section>
 
-        <section className="mb-16">
-          <div className="space-y-8"></div>
-        </section>
       </article>
 
       <Footer />

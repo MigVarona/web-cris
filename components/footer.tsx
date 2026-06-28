@@ -2,32 +2,35 @@ export function Footer() {
   const clients = [
     'Disney', 'Save The Children', 'Heineken', 'Mediaset', 'Bitvavo',
     'Ayuda en Accion', 'RTVE', 'Domestika',
-
   ]
+  const email = 'cristinaagomezz@gmail.com'
 
   return (
-    <footer className="px-6 md:px-12 py-16 border-t border-border">
-      <div className="mb-12">
-        <h3 className="text-sm uppercase tracking-widest text-muted-foreground mb-6">
+    <footer className="border-t border-border px-6 py-14 md:px-12 md:py-16">
+      <div className="mb-12 border-b border-border pb-12">
+        <h3 className="mb-6 text-xs font-medium uppercase tracking-[0.22em] text-muted-foreground">
           Clients & Partners
         </h3>
-        <p className="text-sm text-muted-foreground leading-relaxed max-w-4xl">
+        <p className="max-w-5xl text-sm leading-loose text-muted-foreground">
           {clients.join(' · ')}
         </p>
       </div>
 
-      <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+      <div className="flex flex-col gap-8 md:flex-row md:items-start md:justify-between">
         <div className="space-y-2">
-          <p className="text-sm text-foreground">Cristina Gómez</p>
-          <p className="text-sm text-muted-foreground">Video Editor · Post Production Coordinator · Madrid, Spain</p>
+          <p className="text-sm font-medium text-foreground">Cristina Gómez</p>
+          <p className="max-w-md text-sm leading-relaxed text-muted-foreground">
+            Video Editor · Post Production Coordinator · Madrid, Spain
+          </p>
         </div>
 
-        <div className="flex items-center gap-6">
+        <div className="flex flex-wrap items-center gap-x-6 gap-y-3">
           <a
-            href="mailto:hello@cristinagomez.com"
+            href={`mailto:${email}`}
             className="text-sm text-muted-foreground hover:text-foreground transition-colors"
           >
-            cristinaagomezz@gmail.com          </a>
+            {email}
+          </a>
 
           <a
             href="https://www.linkedin.com/in/cristinagomezvara/"
@@ -48,14 +51,14 @@ export function Footer() {
         </div>
       </div>
 
-      <div className="mt-12 pt-6 border-t border-border">
-        <p className="text-xs text-muted-foreground">
-          © {new Date().getFullYear()} Cristina Gómez. All rights reserved. developed by{" "}
+      <div className="mt-12 border-t border-border pt-6">
+        <p className="text-xs leading-relaxed text-muted-foreground">
+          © {new Date().getFullYear()} Cristina Gómez. All rights reserved. Developed by{' '}
           <a
             href="https://varona-portfolio-rho.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
-            className="underline hover:opacity-80 transition-opacity"
+            className="underline underline-offset-4 transition-opacity hover:opacity-80"
           >
             Miguel Varona
           </a>
